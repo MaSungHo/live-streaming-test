@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import VideoPlayer from '../components/video-player';
 
 export default function Streaming() {
@@ -5,6 +6,9 @@ export default function Streaming() {
 
     return (
         <div>
+            <Head>
+                <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+            </Head>
             <h2>BJ 마브 첫방송 ~</h2>
             <VideoPlayer src={videoUrl}></VideoPlayer>
 
