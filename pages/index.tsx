@@ -14,7 +14,7 @@ export default function Home() {
           <div key={i} className={style.title}>
             <span className={style.highlight}>[생방송] </span>
             {streamingTitles[i]}
-            <span className={style.arrow}>>></span>
+            <span className={style.arrow}>{">>"}</span>
           </div>
         </Link>
       );
