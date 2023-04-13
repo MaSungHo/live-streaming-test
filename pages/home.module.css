@@ -1,0 +1,16 @@
+.title {
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px 30px;
+    width: 60%;
+}
+
+.highlight {
+    color: red;
+}
+
+.arrow {
+    margin-left: 60%;
+}
